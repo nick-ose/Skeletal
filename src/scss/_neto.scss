@@ -288,6 +288,8 @@ $payment-icon:(
 	width: 60px;
 	background-image: url(map-get($static-assets, payment-icon));
 	background-size: 60px;
+	background-repeat: no-repeat;
+	background-position: center;
 	@each $name, $styles in $payment-icon {
 		$height: nth($styles, 1);
 		$background-position: nth($styles, 2);
